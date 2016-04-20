@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 /*Класс "Отношение" определяет отношение между двумя людьми:
  * 1.Время совместной жизни
@@ -12,7 +14,7 @@ public class Relation
     public static int MaxID { get; set; }//Данная переменная ннеобходима для создания новой связи
 
     public Relation(int id, int year1, int year2)
-	{
+    {
         ID = id;
         if (MaxID < ID)
             MaxID = ID;
@@ -41,7 +43,7 @@ public class Man
     private static int MaxID { get; set; }//Данная переменная ннеобходима для создания нового человека
 
     //Создание класса при загрузке из БД
-    public Man(int id, string name, string family, string patname, string sex,string birthday, string deathdate)
+    public Man(int id, string name, string family, string patname, string sex, string birthday, string deathdate)
     {
         ID = id;
         if (MaxID < ID)
