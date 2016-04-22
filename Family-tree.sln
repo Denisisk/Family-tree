@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Family-tree", "Family-tree\Family-tree.shproj", "{FE82B3EF-CE05-4D8A-A0F6-ABD976835923}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Family-tree", "Family-tree\Family-tree.csproj", "{8466AB1D-7555-48AA-A39B-2E74422FFA47}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Family-tree\Family-tree.projitems*{fe82b3ef-ce05-4d8a-a0f6-abd976835923}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8466AB1D-7555-48AA-A39B-2E74422FFA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8466AB1D-7555-48AA-A39B-2E74422FFA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8466AB1D-7555-48AA-A39B-2E74422FFA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8466AB1D-7555-48AA-A39B-2E74422FFA47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
